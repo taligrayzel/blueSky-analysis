@@ -1,0 +1,299 @@
+[
+  {
+    "id": "at://did:plc:c75xkecd2imwgk4zfrem5kva/app.bsky.feed.post/3ldych5nies2p",
+    "text": "Put your menorah in your bio 🕎",
+    "created_at": "2024-12-23T16:00:59.078Z",
+    "metrics": {
+      "repost_count": 2,
+      "like_count": 57,
+      "reply_count": 2
+    },
+    "entities": {
+      "mentions": [],
+      "links": [],
+      "hashtags": []
+    }
+  },
+  {
+    "id": "at://did:plc:c75xkecd2imwgk4zfrem5kva/app.bsky.feed.post/3lbvhqwdick2m",
+    "text": "BREAKING: The ceasefire between Israel and Hezbollah has officially taken effect.",
+    "created_at": "2024-11-27T02:07:33.193Z",
+    "metrics": {
+      "repost_count": 3,
+      "like_count": 88,
+      "reply_count": 4
+    },
+    "entities": {
+      "mentions": [],
+      "links": [],
+      "hashtags": []
+    }
+  },
+  {
+    "id": "at://did:plc:c75xkecd2imwgk4zfrem5kva/app.bsky.feed.post/3lbuzrc6gsk2g",
+    "text": "BREAKING: A ceasefire deal has been reached between Israel and Hezbollah. \n\nWatch the full video: youtu.be/x3-8NeGN088",
+    "created_at": "2024-11-26T21:57:13.226Z",
+    "metrics": {
+      "repost_count": 11,
+      "like_count": 59,
+      "reply_count": 4
+    },
+    "entities": {
+      "mentions": [],
+      "links": [
+        "https://youtu.be/x3-8NeGN088"
+      ],
+      "hashtags": []
+    }
+  },
+  {
+    "id": "at://did:plc:c75xkecd2imwgk4zfrem5kva/app.bsky.feed.post/3lbigixyybs25",
+    "text": "The @intlcrimcourt.bsky.social  is no longer a tool of justice—it now shields terrorists and punishes their victims.",
+    "created_at": "2024-11-21T21:40:36.168Z",
+    "metrics": {
+      "repost_count": 10,
+      "like_count": 48,
+      "reply_count": 5
+    },
+    "entities": {
+      "mentions": [
+        "did:plc:ys3llfwhnajavu2wqxm6c4j4"
+      ],
+      "links": [],
+      "hashtags": []
+    }
+  },
+  {
+    "id": "at://did:plc:c75xkecd2imwgk4zfrem5kva/app.bsky.feed.post/3lbcwu2wpl22o",
+    "text": "The U.S. Treasury sanctioned Hamas's key leaders and financiers, targetting their international financial networks to disrupt the group's funding sources. #DefundHamas home.treasury.gov/news/press-r...",
+    "created_at": "2024-11-19T17:17:09.779Z",
+    "metrics": {
+      "repost_count": 9,
+      "like_count": 55,
+      "reply_count": 2
+    },
+    "entities": {
+      "mentions": [],
+      "links": [
+        "https://home.treasury.gov/news/press-releases/jy2720"
+      ],
+      "hashtags": [
+        "DefundHamas"
+      ]
+    }
+  },
+  {
+    "id": "at://did:plc:c75xkecd2imwgk4zfrem5kva/app.bsky.feed.post/3lbamfiyfo223",
+    "text": "BREAKING: It is being reported that a rocket from Lebanon hit a building near Tel Aviv.",
+    "created_at": "2024-11-18T19:04:44.305Z",
+    "metrics": {
+      "repost_count": 3,
+      "like_count": 27,
+      "reply_count": 3
+    },
+    "entities": {
+      "mentions": [],
+      "links": [],
+      "hashtags": []
+    }
+  },
+  {
+    "id": "at://did:plc:c75xkecd2imwgk4zfrem5kva/app.bsky.feed.post/3lb3cocrsf22q",
+    "text": "youtu.be/XOOmAGP_4mw",
+    "created_at": "2024-11-16T16:27:23.669Z",
+    "metrics": {
+      "repost_count": 8,
+      "like_count": 22,
+      "reply_count": 0
+    },
+    "entities": {
+      "mentions": [],
+      "links": [
+        "https://youtu.be/XOOmAGP_4mw"
+      ],
+      "hashtags": []
+    }
+  },
+  {
+    "id": "at://did:plc:c75xkecd2imwgk4zfrem5kva/app.bsky.feed.post/3lb3cocrjls2q",
+    "text": "Moran Stella Yanai was held hostage in Gaza by Hamas terrorists for 54 days after she was kidnapped from the Nova music festival on October 7th. Her story will leave you speechless. Watch the full video below ⬇️",
+    "created_at": "2024-11-16T16:27:23.668Z",
+    "metrics": {
+      "repost_count": 17,
+      "like_count": 50,
+      "reply_count": 2
+    },
+    "entities": {
+      "mentions": [],
+      "links": [],
+      "hashtags": []
+    }
+  },
+  {
+    "id": "at://did:plc:c75xkecd2imwgk4zfrem5kva/app.bsky.feed.post/3law42pex6w24",
+    "text": "Six members of the IDF’s Golani Brigade were killed in Lebanon, bringing the death toll since the beginning of the war to 793. 🕯️ \n\nSgt. Yoav Daniel, 19\nStaff Sgt. Dror Hen, 20\nStaff. Sgt. Nir Gofer, 20\nStaff Sgt. Sraya Elboim, 21\nSgt. Shalev Itzhak Sagron, 21\nCapt. Itay Marcovich, 22",
+    "created_at": "2024-11-14T14:45:44.655Z",
+    "metrics": {
+      "repost_count": 6,
+      "like_count": 38,
+      "reply_count": 7
+    },
+    "entities": {
+      "mentions": [],
+      "links": [],
+      "hashtags": []
+    }
+  },
+  {
+    "id": "at://did:plc:c75xkecd2imwgk4zfrem5kva/app.bsky.feed.post/3jznoisg2cu2x",
+    "text": "🚨 Iran has been arming Palestinians with weapons in Jenin, creating a hotbed of terror. Nearly 30 innocent Israelis have been murdered by terrorists since the beginning of the year. That’s why right now, Israel is taking action to protect its citizens from terror.",
+    "created_at": "2023-07-03T22:59:13.624Z",
+    "metrics": {
+      "repost_count": 5,
+      "like_count": 25,
+      "reply_count": 28
+    },
+    "entities": {
+      "mentions": [],
+      "links": [],
+      "hashtags": []
+    }
+  },
+  {
+    "id": "at://did:plc:c75xkecd2imwgk4zfrem5kva/app.bsky.feed.post/3jynbc5frqk27",
+    "text": "Four Israelis were brutally murdered in a terror attack today. Harel Masood (21), Elisha Anteman (17), Ofer Feierman (63), and Nachman Mordoff (17) were sitting in a hummus restaurant eating lunch when they were gunned down by two Hamas-affiliated terrorists.",
+    "created_at": "2023-06-21T01:37:40.115Z",
+    "metrics": {
+      "repost_count": 2,
+      "like_count": 10,
+      "reply_count": 0
+    },
+    "entities": {
+      "mentions": [],
+      "links": [],
+      "hashtags": []
+    }
+  },
+  {
+    "id": "at://did:plc:7r7axb5fxs5xjrmr7ssb7dr4/app.bsky.feed.post/3jwiwjuo44k2i",
+    "text": "We are heartbroken to hear of the passing of Tina Turner, widely referred to as the \"Queen of Rock 'n' Roll.\" During her incredible career, Turner visited Israel to perform in Tel Aviv in 1987. May her memory be an eternal blessing.",
+    "created_at": "2023-05-24T21:24:05.944Z",
+    "metrics": {
+      "repost_count": 3,
+      "like_count": 13,
+      "reply_count": 4
+    },
+    "entities": {
+      "mentions": [],
+      "links": [],
+      "hashtags": []
+    }
+  },
+  {
+    "id": "at://did:plc:c75xkecd2imwgk4zfrem5kva/app.bsky.feed.post/3jvfq2f5nre2x",
+    "text": "Seeing this image of Israelis huddled on the side of the road, under rocket fire, breaks my heart. This is the reality for Israeli citizens as they are targeted by Palestinian terror rockets. No one should have to live in constant fear for their life. @jaketapper.bsky.social",
+    "created_at": "2023-05-10T21:24:53.003Z",
+    "metrics": {
+      "repost_count": 1,
+      "like_count": 7,
+      "reply_count": 1
+    },
+    "entities": {
+      "mentions": [
+        "did:plc:upkgvxvhn4ebia3arqy4ru65"
+      ],
+      "links": [],
+      "hashtags": []
+    }
+  },
+  {
+    "id": "at://did:plc:c75xkecd2imwgk4zfrem5kva/app.bsky.feed.post/3jvfg6k7b3s26",
+    "text": "Keep Israel in your prayers. 🇮🇱 🙏🏼 💔",
+    "created_at": "2023-05-10T18:28:15.217Z",
+    "metrics": {
+      "repost_count": 1,
+      "like_count": 15,
+      "reply_count": 1
+    },
+    "entities": {
+      "mentions": [],
+      "links": [],
+      "hashtags": []
+    }
+  },
+  {
+    "id": "at://did:plc:c75xkecd2imwgk4zfrem5kva/app.bsky.feed.post/3jv5d7cm3sp2c",
+    "text": "Have you experienced antisemitism? During my speech at Duke University, I asked the students and community members to raise their hands if they’ve experienced antisemitism. Everyone raised their hands. \n\nIf you’ve experienced antisemitism, share your story in the comments below. ⬇️",
+    "created_at": "2023-05-07T13:13:41.731Z",
+    "metrics": {
+      "repost_count": 3,
+      "like_count": 17,
+      "reply_count": 5
+    },
+    "entities": {
+      "mentions": [],
+      "links": [],
+      "hashtags": []
+    }
+  },
+  {
+    "id": "at://did:plc:c75xkecd2imwgk4zfrem5kva/app.bsky.feed.post/3jutfrqnf4j2f",
+    "text": "Welcome to the party",
+    "created_at": "2023-05-03T14:33:10.434Z",
+    "metrics": {
+      "repost_count": 0,
+      "like_count": 0,
+      "reply_count": 0
+    },
+    "entities": {
+      "mentions": [],
+      "links": [],
+      "hashtags": []
+    }
+  },
+  {
+    "id": "at://did:plc:c75xkecd2imwgk4zfrem5kva/app.bsky.feed.post/3juqpcufjbg25",
+    "text": "🚨 BREAKING: Rockets were launched from Gaza toward southern Israel.",
+    "created_at": "2023-05-02T12:45:49.236Z",
+    "metrics": {
+      "repost_count": 1,
+      "like_count": 5,
+      "reply_count": 1
+    },
+    "entities": {
+      "mentions": [],
+      "links": [],
+      "hashtags": []
+    }
+  },
+  {
+    "id": "at://did:plc:c75xkecd2imwgk4zfrem5kva/app.bsky.feed.post/3juozaebhz62g",
+    "text": "As we celebrate Jewish American Heritage Month this month, it's disappointing to see Google and Apple not including it on their calendar. Jewish Americans have played an integral role in shaping our country. Let's work to ensure that is given the recognition it deserves.",
+    "created_at": "2023-05-01T20:38:03.261Z",
+    "metrics": {
+      "repost_count": 1,
+      "like_count": 6,
+      "reply_count": 0
+    },
+    "entities": {
+      "mentions": [],
+      "links": [],
+      "hashtags": []
+    }
+  },
+  {
+    "id": "at://did:plc:c75xkecd2imwgk4zfrem5kva/app.bsky.feed.post/3juomkokz5r2n",
+    "text": "Neshama in Hebrew means soul. It’s also a term of endearment for someone you love: “Ari, Neshama Shelly”. Here’s to my friends Inbar Lavi and Roza Sinaysky for their new and super cozy House of Lavi line. Shavua Tov my beloved neshamot, have an amazing rest of the weekend and a powerful week ahead.",
+    "created_at": "2023-05-01T16:51:10.974Z",
+    "metrics": {
+      "repost_count": 1,
+      "like_count": 6,
+      "reply_count": 0
+    },
+    "entities": {
+      "mentions": [],
+      "links": [],
+      "hashtags": []
+    }
+  }
+]

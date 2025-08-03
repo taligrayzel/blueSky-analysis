@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bluesky Stance Analyzer</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      padding: 2rem;
+      background-color: #f0f2f5;
+      font-family: 'Inter', sans-serif;
+    }
+    h1 {
+      font-weight: 700;
+      color: #333;
+    }
+    .result-card {
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+      padding: 2rem;
+      transition: box-shadow 0.3s ease;
+    }
+    .result-card:hover {
+      box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
+    }
+    .stance-badge {
+      padding: 0.5em 1em;
+      border-radius: 25px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: white;
+    }
+    .stance-badge.pro-israeli { background-color: #007bff; }
+    .stance-badge.pro-palestinian { background-color: #ff5722; }
+    .stance-badge.neutral { background-color: #28a745; }
+    .highlighted-text span { font-weight: bold; }
+    .list-group-item {
+      border-radius: 10px;
+      margin-bottom: 10px;
+      background: #fdfdfd;
+      border: 1px solid #eee;
+    }
+    .input-group input {
+      border-radius: 30px 0 0 30px;
+    }
+    .input-group .btn {
+      border-radius: 0 30px 30px 0;
+    }
+    .badge + small {
+      margin-left: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="mb-2 text-center fw-bold" style="font-size: 2.5rem;">
+      Bluesky Stance Analyzer
+    </h1>
+    <p class="text-center text-muted mb-4" style="font-size: 1.2rem;">
+      Analyzing public stance on <strong>Israel</strong> vs <strong>Palestine</strong> based on user posts
+    </p>
+
+
+    <form method="POST" class="mb-5">
+      <div class="input-group shadow-sm">
+        <input type="text" name="username" class="form-control" placeholder="Enter Bluesky handle (e.g. user.bsky.social)" required>
+        <button class="btn btn-primary" type="submit">Analyze</button>
+      </div>
+    </form>
+
+    {% if error %}
+      <div class="alert alert-danger alert-dismissible fade show shadow-sm" role="alert">
+        {{ error }}
+      </div>
+    {% endif %}
+
+    
+
+    {% if result %}
+    <div class="result-card">
+      <h3>Results for <strong>@{{ result.username }}</strong></h3>
+      <p class="mt-3">
+        <span class="badge stance-badge {{ result.stance|lower|replace(' ', '-') }}">{{ result.stance }}</span>
+
+        <br><br>
+        {% set avg_score = result.average_score %}
+        {% if avg_score > 0 %}
+          <strong>Pro-Israeli:</strong> {{ (avg_score * 100) | round(1) }}%
+          <small class="text-muted" title="Higher % means stronger stance">🛈</small>
+        {% elif avg_score < 0 %}
+          <strong>Pro-Palestinian:</strong> {{ (-avg_score * 100) | round(1) }}%
+          <small class="text-muted" title="Higher % means stronger stance">🛈</small>
+        {% else %}
+          <strong>Neutral</strong>
+        {% endif %}
+        |
+        <strong>Confidence:</strong> {{ (result.confidence * 100) | round(1) }}%
+        <small class="text-muted" title="Confidence is based on post consistency and stance clarity">🛈</small>
+        |
+        <strong>Posts Analyzed:</strong> {{ result.post_analyses | length }}
+      </p>
+
+      <h5 class="mt-4">Stance Distribution</h5>
+      <ul class="list-unstyled">
+        {% for stance, pct in result.stance_distribution.items() %}
+          <li><strong>{{ stance }}</strong>: {{ pct * 100 }}%</li>
+        {% endfor %}
+      </ul>
+
+      <h5 class="mt-4">Visualization</h5>
+      <img src="{{ result.viz_path }}" class="img-fluid rounded shadow-sm" alt="Visualization">
+
+      <h5 class="mt-4">All Analyzed Posts</h5>
+      <div class="list-group" style="max-height: 600px; overflow-y: auto;">
+        {% for post in result.post_analyses %}
+          <div class="list-group-item">
+            <div class="d-flex justify-content-between align-items-center">
+              <span class="badge stance-badge {{ post.stance|lower|replace(' ', '-') }}">{{ post.stance }}</span>
+              <small class="text-muted">Score: {{ post.score }}</small>
+            </div>
+            <p class="mt-2 highlighted-text" style="white-space: pre-wrap;">{{ post.highlighted_text | safe }}</p>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+    {% endif %}
+  </div>
+</body>
+</html>
